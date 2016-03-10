@@ -35,8 +35,6 @@ def scan_site(url, output):
     logger.debug("scan_site() called with %s" % (url))
     http_url = as_http(url)
     https_url = as_https(url)
-    # logger.debug("http:  %s" % http_url)
-    # logger.debug("https: %s" % https_url)
 
     stuff = {
         'url': url,
